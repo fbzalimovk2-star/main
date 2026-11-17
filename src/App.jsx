@@ -14,7 +14,7 @@ const profile = {
   city: "Astana, Kazakhstan",
   socials: [
     { label: "GitHub", href: "https://github.com/", Icon: FaGithub },
-    { label: "Email", href: "mailto:fbzalimovk2@gmail.com", Icon: FiMail },
+    { label: "Email", href: "https://mail.google.com/mail/?view=cm&fs=1&to=fbzalimovk2@gmail.com", Icon: FiMail },
   ],
 };
 const nav = ["Home", "About", "Projects", "Skills", "Contact"];
