@@ -5,16 +5,16 @@ import { SiReact, SiNextdotjs, SiTypescript, SiNodedotjs, SiPostgresql } from "r
 
 /* ====== Редактируйте контент здесь ====== */
 const profile = {
-  name: "John Doe",
+  name: "Kamil Abzalimov",
   lead: "Web",
   role: "Developer",
   tagline: "I build fast, modern and scalable web applications with a focus on great user experience.",
-  about: "I'm a passionate web developer with 3+ years of experience in building web applications. I love turning ideas into performant and user-friendly products.",
-  email: "hello@johndoe.dev",
-  city: "Berlin, Germany",
+  about: "I'm a passionate web developer with 2+ years of experience in building web applications. I love turning ideas into performant and user-friendly products.",
+  email: "fbzalimovk2@gmail.com",
+  city: "Astana, Kazakhstan",
   socials: [
     { label: "GitHub", href: "https://github.com/", Icon: FaGithub },
-    { label: "Email", href: "mailto:hello@johndoe.dev", Icon: FiMail },
+    { label: "Email", href: "mailto:fbzalimovk2@gmail.com", Icon: FiMail },
   ],
 };
 const nav = ["Home", "About", "Projects", "Skills", "Contact"];
