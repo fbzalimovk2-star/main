@@ -5,16 +5,16 @@ import { SiReact, SiNextdotjs, SiTypescript, SiNodedotjs, SiPostgresql } from "r
 
 /* ====== Редактируйте контент здесь ====== */
 const profile = {
-  name: "Kamil Abzalimov",
+  name: "John Doe",
   lead: "Web",
   role: "Developer",
   tagline: "I build fast, modern and scalable web applications with a focus on great user experience.",
-  about: "I'm a passionate web developer with 2+ years of experience in building web applications. I love turning ideas into performant and user-friendly products.",
-  email: "fbzalimovk2@gmail.com",
-  city: "Astana, Kazakhstan",
+  about: "I'm a passionate web developer with 3+ years of experience in building web applications. I love turning ideas into performant and user-friendly products.",
+  email: "hello@johndoe.dev",
+  city: "Berlin, Germany",
   socials: [
     { label: "GitHub", href: "https://github.com/", Icon: FaGithub },
-    { label: "Email", href: "https://mail.google.com/mail/?view=cm&fs=1&to=fbzalimovk2@gmail.com", Icon: FiMail },
+    { label: "Email", href: "mailto:hello@johndoe.dev", Icon: FiMail },
   ],
 };
 const nav = ["Home", "About", "Projects", "Skills", "Contact"];
@@ -125,7 +125,7 @@ export default function App() {
             <div>
               <h2 className="big">Let's Work <em>Together</em></h2>
               <p>Have a project in mind or just want to say hi? Feel free to reach out!</p>
-              <a href={`mailto:${profile.email}`} className="btn solid"><FiMail /> Get in Touch <FiArrowRight /></a>
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=fbzalimovk2@gmail.com" target="_blank" rel="noreferrer" className="btn solid"><FiMail /> Get in Touch <FiArrowRight /></a>
             </div>
             <ul className="info">
               <li><FiMail /> <a href={`mailto:${profile.email}`}>{profile.email}</a></li>
