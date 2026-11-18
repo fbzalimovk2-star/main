@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import ShaderBackground from "./ShaderBackground.jsx";
 import { FaGithub } from "react-icons/fa6";
 import { FiArrowRight, FiArrowDown, FiArrowUp, FiExternalLink, FiMail, FiMapPin } from "react-icons/fi";
 import { SiReact, SiNextdotjs, SiTypescript, SiNodedotjs, SiPostgresql } from "react-icons/si";
@@ -10,11 +11,11 @@ const profile = {
   role: "Developer",
   tagline: "I build fast, modern and scalable web applications with a focus on great user experience.",
   about: "I'm a passionate web developer with 3+ years of experience in building web applications. I love turning ideas into performant and user-friendly products.",
-  email: "fbzalimovk2@gmail.com",
-  city: "Astana, Kazakhstan",
+  email: "hello@johndoe.dev",
+  city: "Berlin, Germany",
   socials: [
     { label: "GitHub", href: "https://github.com/", Icon: FaGithub },
-    { label: "Email", href: "https://mail.google.com/mail/?view=cm&fs=1&to=fbzalimovk2@gmail.com", Icon: FiMail },
+    { label: "Email", href: "mailto:hello@johndoe.dev", Icon: FiMail },
   ],
 };
 const nav = ["Home", "About", "Projects", "Skills", "Contact"];
@@ -61,6 +62,7 @@ export default function App() {
 
       <main>
         <section id="home" className="hero">
+          <ShaderBackground />
           <div className="wrap">
             <span className="pill">Hello, I'm</span>
             <h1>
